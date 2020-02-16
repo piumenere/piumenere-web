@@ -1,3 +1,14 @@
-<mat-icon>accessibility</mat-icon>
-<mat-label i18n>app.label</mat-label>
-<router-outlet></router-outlet>
+<mat-sidenav-container fxFill>
+    <mat-sidenav>Start</mat-sidenav>
+    <mat-sidenav-content>
+        <mat-toolbar>
+            <button mat-button (click)="this.toggle()">
+                <mat-icon>menu</mat-icon>
+            </button>
+            <div fxFlex fxLayoutAlign="space-around center">
+                <mat-label fxFlexAlign="center" i18n>app.label</mat-label>
+            </div>
+        </mat-toolbar>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>
