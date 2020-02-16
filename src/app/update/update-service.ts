@@ -12,7 +12,7 @@ export class UpdateService {
     ) {
         if (this.swUpdate.isEnabled) {
             this.swUpdate.available.pipe(
-                filter(() => confirm())
+                filter(() => confirm($localize`update.confirm`))
             ).subscribe(() => this.swUpdate.activateUpdate().then(() => window.location.reload()));
         }
     }
