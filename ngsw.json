@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1581880629254,
+  "timestamp": 1581880928106,
   "index": "/piumenere-web/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "/piumenere-web/favicon.ico",
         "/piumenere-web/index.html",
-        "/piumenere-web/main-es2015.722d17ee43718958f8d2.js",
-        "/piumenere-web/main-es5.722d17ee43718958f8d2.js",
+        "/piumenere-web/main-es2015.f2641ffdcc47356acefd.js",
+        "/piumenere-web/main-es5.f2641ffdcc47356acefd.js",
         "/piumenere-web/manifest.webmanifest",
         "/piumenere-web/polyfills-es2015.442fa3cc45520cc0d518.js",
         "/piumenere-web/polyfills-es5.abdd41dcd206a6689f72.js",
@@ -49,9 +49,9 @@
     "/piumenere-web/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/piumenere-web/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/piumenere-web/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/piumenere-web/index.html": "483a014701b0a0814b45be2553a49fc2bc58cfd4",
-    "/piumenere-web/main-es2015.722d17ee43718958f8d2.js": "94cd8a0bfb5d1c5d9c72af61493e4bbe34cf8944",
-    "/piumenere-web/main-es5.722d17ee43718958f8d2.js": "2683425a79e84fcfa2c5d76a5c918cdad90bbaea",
+    "/piumenere-web/index.html": "ea258fa9883a897fd28a6218de7a6e81c2022cdc",
+    "/piumenere-web/main-es2015.f2641ffdcc47356acefd.js": "e01c057f7e5b4839032bae34e22a02cef3114d5d",
+    "/piumenere-web/main-es5.f2641ffdcc47356acefd.js": "19c3f80b85d10f0e93d77547aed9daf5af85f328",
     "/piumenere-web/manifest.webmanifest": "29f950fc337c112649bf643a6f7fe9cc06c8692d",
     "/piumenere-web/polyfills-es2015.442fa3cc45520cc0d518.js": "8779ed8d9bf0580e1b50b352a9b8fd520be24433",
     "/piumenere-web/polyfills-es5.abdd41dcd206a6689f72.js": "8d03638471d7374e81cf33adfdea439f84ac3873",
