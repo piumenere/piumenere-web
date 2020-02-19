@@ -1,14 +1,22 @@
-<mat-sidenav-container fxFill>
-    <mat-sidenav>Start</mat-sidenav>
-    <mat-sidenav-content>
+<mat-sidenav-container fullscreen>
+    <mat-sidenav>
+        <button mat-button (click)="this.toggle()">
+            <mat-icon>close</mat-icon>
+        </button>
+    </mat-sidenav>
+    <mat-sidenav-content fxLayout="column">
         <mat-toolbar>
-            <button mat-button (click)="this.toggle()">
-                <mat-icon>menu</mat-icon>
-            </button>
-            <div fxFlex fxLayoutAlign="space-around center">
-                <mat-label fxFlexAlign="center" i18n>app.label</mat-label>
+            <div fxFlex>
+                <button mat-button (click)="this.toggle()">
+                    <mat-icon>menu</mat-icon>
+                </button>
+            </div>
+            <mat-label fxFlexAlign="center" i18n>app.label</mat-label>
+            <div fxFlex>
             </div>
         </mat-toolbar>
-        <router-outlet></router-outlet>
+        <div fxFlex>
+            <router-outlet></router-outlet>
+        </div>
     </mat-sidenav-content>
 </mat-sidenav-container>
