@@ -1,9 +1,11 @@
 import { AbstractEnvironment, EnvironmentType } from './abstract-environment';
 
-export class Enviroment extends AbstractEnvironment {
+export const environmentType: EnvironmentType  = EnvironmentType.dev;
+
+export class Environment extends AbstractEnvironment {
 
   getType(): EnvironmentType {
-    return EnvironmentType.dev;
+    return environmentType;
   } 
   getFacebookAppId(): string {
     return '2556092497994302';
@@ -14,6 +16,5 @@ export class Enviroment extends AbstractEnvironment {
 
 }
 
-export const environment = new Enviroment();
 
 

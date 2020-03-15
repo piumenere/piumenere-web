@@ -1,0 +1,11 @@
+{
+	"app": {
+		"label": ""
+	},
+	"login": {
+		"facebook": "",
+		"google": "",
+		"subtitle": "",
+		"title": ""
+	}
+}

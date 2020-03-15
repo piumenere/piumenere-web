@@ -4,8 +4,8 @@
             <div mat-card-avatar>
                 <mat-icon>lock</mat-icon>
             </div>
-            <mat-card-title i18n>login.title</mat-card-title>
-            <mat-card-subtitle i18n>login.subtitle</mat-card-subtitle>
+            <mat-card-title translate>login.title</mat-card-title>
+            <mat-card-subtitle translate>login.subtitle</mat-card-subtitle>
         </mat-card-header>
         <mat-card-content>
         </mat-card-content>
@@ -13,13 +13,13 @@
             <button mat-button (click)="login(facebookId)">
                 <div fxLayoutAlign="space-between center">
                     <mat-icon svgIcon="facebook"></mat-icon>
-                    <mat-label i18n fxFlex>login.facebook</mat-label>
+                    <mat-label translate fxFlex>login.facebook</mat-label>
                 </div>
             </button>
             <button mat-button (click)="login(googleId)" disabled>
                 <div fxLayoutAlign="space-between center">
                     <mat-icon svgIcon="google"></mat-icon>
-                    <mat-label i18n fxFlex>login.google</mat-label>
+                    <mat-label translate fxFlex>login.google</mat-label>
                 </div>
             </button>
         </mat-card-actions>

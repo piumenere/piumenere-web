@@ -5,16 +5,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
-import { environment } from '../environments/environment';
-
-import { registerLocaleData } from '@angular/common';
-import localeIt from '@angular/common/locales/it';
+import { environmentType } from '../environments/environment';
 import { SharedModule } from './shared/shared.module';
 import { LoginComponent } from './login/login.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { EnvironmentType } from 'src/environments/abstract-environment';
-
-registerLocaleData(localeIt, 'it');
+import { TranslateModule } from '@ngx-translate/core';
+import { TranslateModuleLoaderConfig } from './providers/providers';
 
 @NgModule({
   declarations: [
@@ -26,7 +23,8 @@ registerLocaleData(localeIt, 'it');
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.getType() === EnvironmentType.prod })
+    TranslateModule.forRoot(TranslateModuleLoaderConfig),
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environmentType === EnvironmentType.prod })
   ],
   bootstrap: [
     AppComponent

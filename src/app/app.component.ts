@@ -5,6 +5,7 @@ import { StateService } from './state/state-service';
 import { filter } from 'rxjs/operators';
 import { Router } from '@angular/router';
 import { loginRoute, defaultRoute } from './app-routing.module';
+import { LocaleService } from './locale/locale.service';
 
 @Component({
   selector: 'app-root',
@@ -20,7 +21,8 @@ export class AppComponent {
   constructor(
     router: Router,
     public updateService: UpdateService,
-    stateService: StateService
+    stateService: StateService,
+    public localService: LocaleService
   ) {
     stateService.logged.pipe(
       filter(logged => !logged)

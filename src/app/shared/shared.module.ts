@@ -11,11 +11,17 @@ import { MatCardModule } from '@angular/material/card';
 
 import { SocialLoginModule } from 'angularx-social-login';
 
-import { authServiceConfigProvider } from '../providers/providers';
+import { authServiceConfigProvider, BaseHrefProvider } from '../providers/providers';
 import { IconsModule } from '../icons/icons.module';
+import { Environment } from 'src/environments/environment';
+import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
+  imports: [
+    TranslateModule.forChild()
+  ],
   exports: [
+    TranslateModule,
     HttpClientModule,
     FlexLayoutModule,
     MatIconModule,
@@ -28,7 +34,9 @@ import { IconsModule } from '../icons/icons.module';
     IconsModule
   ],
   providers: [
-    authServiceConfigProvider
+    authServiceConfigProvider,
+    BaseHrefProvider,
+    Environment
   ]
 })
 export class SharedModule { }
