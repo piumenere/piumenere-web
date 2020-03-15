@@ -1,0 +1,90 @@
+{
+  "configVersion": 1,
+  "timestamp": 1584316188505,
+  "index": "https://github.com/amoscatelli/amoscatelli.github.io/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://github.com/amoscatelli/amoscatelli.github.io/5-es2015.0a077eebcf69f9b46fa4.js",
+        "https://github.com/amoscatelli/amoscatelli.github.io/5-es5.0a077eebcf69f9b46fa4.js",
+        "https://github.com/amoscatelli/amoscatelli.github.io/favicon.ico",
+        "https://github.com/amoscatelli/amoscatelli.github.io/index.html",
+        "https://github.com/amoscatelli/amoscatelli.github.io/main-es2015.f276bbe7140d0e94b296.js",
+        "https://github.com/amoscatelli/amoscatelli.github.io/main-es5.f276bbe7140d0e94b296.js",
+        "https://github.com/amoscatelli/amoscatelli.github.io/manifest.webmanifest",
+        "https://github.com/amoscatelli/amoscatelli.github.io/polyfills-es2015.4c8886a1a9f49264b369.js",
+        "https://github.com/amoscatelli/amoscatelli.github.io/polyfills-es5.b53b3e5deb0f2e2a610c.js",
+        "https://github.com/amoscatelli/amoscatelli.github.io/runtime-es2015.3ab0a05f8829e22ac0a4.js",
+        "https://github.com/amoscatelli/amoscatelli.github.io/runtime-es5.3ab0a05f8829e22ac0a4.js",
+        "https://github.com/amoscatelli/amoscatelli.github.io/styles.fcd247f9129b8cc2d707.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://github.com/amoscatelli/amoscatelli.github.io/assets/i18n/en.json",
+        "https://github.com/amoscatelli/amoscatelli.github.io/assets/i18n/it.json",
+        "https://github.com/amoscatelli/amoscatelli.github.io/assets/icons/icon-128x128.png",
+        "https://github.com/amoscatelli/amoscatelli.github.io/assets/icons/icon-144x144.png",
+        "https://github.com/amoscatelli/amoscatelli.github.io/assets/icons/icon-152x152.png",
+        "https://github.com/amoscatelli/amoscatelli.github.io/assets/icons/icon-192x192.png",
+        "https://github.com/amoscatelli/amoscatelli.github.io/assets/icons/icon-384x384.png",
+        "https://github.com/amoscatelli/amoscatelli.github.io/assets/icons/icon-512x512.png",
+        "https://github.com/amoscatelli/amoscatelli.github.io/assets/icons/icon-72x72.png",
+        "https://github.com/amoscatelli/amoscatelli.github.io/assets/icons/icon-96x96.png",
+        "https://github.com/amoscatelli/amoscatelli.github.io/assets/mdi.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://github.com/amoscatelli/amoscatelli.github.io/5-es2015.0a077eebcf69f9b46fa4.js": "46837b869ea65e1edcab8739de214fe41ee8f284",
+    "https://github.com/amoscatelli/amoscatelli.github.io/5-es5.0a077eebcf69f9b46fa4.js": "69848236611740ca2957218fc17598c2a7d29d79",
+    "https://github.com/amoscatelli/amoscatelli.github.io/assets/i18n/en.json": "02016fb9cd5e23873dbe5b6a39514070beb34bf4",
+    "https://github.com/amoscatelli/amoscatelli.github.io/assets/i18n/it.json": "02016fb9cd5e23873dbe5b6a39514070beb34bf4",
+    "https://github.com/amoscatelli/amoscatelli.github.io/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://github.com/amoscatelli/amoscatelli.github.io/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://github.com/amoscatelli/amoscatelli.github.io/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://github.com/amoscatelli/amoscatelli.github.io/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://github.com/amoscatelli/amoscatelli.github.io/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://github.com/amoscatelli/amoscatelli.github.io/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://github.com/amoscatelli/amoscatelli.github.io/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://github.com/amoscatelli/amoscatelli.github.io/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://github.com/amoscatelli/amoscatelli.github.io/assets/mdi.svg": "0815225096b01ac2fb4bc7b00ab9351ea1b24d0e",
+    "https://github.com/amoscatelli/amoscatelli.github.io/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://github.com/amoscatelli/amoscatelli.github.io/index.html": "728b21e7d54af192c4ae215c6284f1a151020fdb",
+    "https://github.com/amoscatelli/amoscatelli.github.io/main-es2015.f276bbe7140d0e94b296.js": "b28898fe9b8cf50359be691d9f0ce40b8b2b5d0d",
+    "https://github.com/amoscatelli/amoscatelli.github.io/main-es5.f276bbe7140d0e94b296.js": "4e147247ea5412832d4867ad29081531e3c1ca5f",
+    "https://github.com/amoscatelli/amoscatelli.github.io/manifest.webmanifest": "29f950fc337c112649bf643a6f7fe9cc06c8692d",
+    "https://github.com/amoscatelli/amoscatelli.github.io/polyfills-es2015.4c8886a1a9f49264b369.js": "98a79ea66d16fefe0a544514388a5617547d55bc",
+    "https://github.com/amoscatelli/amoscatelli.github.io/polyfills-es5.b53b3e5deb0f2e2a610c.js": "a93ac505c0b07ac4fc9ef3e4b578e433b94a80ee",
+    "https://github.com/amoscatelli/amoscatelli.github.io/runtime-es2015.3ab0a05f8829e22ac0a4.js": "5a3ab8dfe17668f72081ac77df860600624b143a",
+    "https://github.com/amoscatelli/amoscatelli.github.io/runtime-es5.3ab0a05f8829e22ac0a4.js": "463ddf998fc92bc2a690e92c7dee6d116ad2f420",
+    "https://github.com/amoscatelli/amoscatelli.github.io/styles.fcd247f9129b8cc2d707.css": "65b93e7ed171279db22a9212d3d47e73645990c8"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
