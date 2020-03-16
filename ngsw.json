@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1584318362660,
+  "timestamp": 1584319262257,
   "index": "/piumenere-web/index.html",
   "assetGroups": [
     {
@@ -47,8 +47,8 @@
   "hashTable": {
     "/piumenere-web/5-es2015.0a077eebcf69f9b46fa4.js": "46837b869ea65e1edcab8739de214fe41ee8f284",
     "/piumenere-web/5-es5.0a077eebcf69f9b46fa4.js": "69848236611740ca2957218fc17598c2a7d29d79",
-    "/piumenere-web/assets/i18n/en.json": "02016fb9cd5e23873dbe5b6a39514070beb34bf4",
-    "/piumenere-web/assets/i18n/it.json": "02016fb9cd5e23873dbe5b6a39514070beb34bf4",
+    "/piumenere-web/assets/i18n/en.json": "73f5de135821c3cb656bd7003fd85b8f0429b4f0",
+    "/piumenere-web/assets/i18n/it.json": "73f5de135821c3cb656bd7003fd85b8f0429b4f0",
     "/piumenere-web/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/piumenere-web/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/piumenere-web/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
