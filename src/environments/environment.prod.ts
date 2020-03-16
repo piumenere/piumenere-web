@@ -11,7 +11,7 @@ export class Environment extends AbstractEnvironment {
     return '2556092497994302';
   }
   getGoogleAppId(): string {
-    return '716019201225-k0bqr14jufoiqooejnc2fu42hkhh248i.apps.googleusercontent.com';
+    return '716019201225-19kph86i3lphru4hm619qr5oohe7i1i4.apps.googleusercontent.com';
   }
 
 }
