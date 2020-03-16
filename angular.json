@@ -10,12 +10,6 @@
           "style": "scss"
         }
       },
-      "i18n": {
-        "sourceLocale": "en",
-        "locales": {
-          "it": "src/locale/messages.it.xlf"
-        }
-      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -33,6 +27,7 @@
               "src/favicon.ico",
               "src/assets",
               "src/manifest.webmanifest",
+              "CNAME",
               {
                 "glob": "**/*.svg",
                 "input": "./node_modules/@mdi/angular-material",
@@ -92,12 +87,6 @@
             }
           }
         },
-        "extract-i18n": {
-          "builder": "@angular-devkit/build-angular:extract-i18n",
-          "options": {
-            "browserTarget": "piumenere-web:build"
-          }
-        },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
@@ -108,7 +97,13 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/manifest.webmanifest"
+              "src/manifest.webmanifest",
+              "CNAME",
+              {
+                "glob": "**/*.svg",
+                "input": "./node_modules/@mdi/angular-material",
+                "output": "./assets"
+              }
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/purple-green.css",
