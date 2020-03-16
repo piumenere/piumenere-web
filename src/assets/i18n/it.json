@@ -1,11 +1,11 @@
 {
 	"app": {
-		"label": ""
+		"label": "app.label"
 	},
 	"login": {
-		"facebook": "",
-		"google": "",
-		"subtitle": "",
-		"title": ""
+		"facebook": "login.facebook",
+		"google": "login.google",
+		"subtitle": "login.subtitle",
+		"title": "login.title"
 	}
 }
