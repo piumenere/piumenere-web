@@ -13,5 +13,6 @@ export abstract class AbstractEnvironment {
     abstract getType(): EnvironmentType;
     abstract getFacebookAppId(): string;
     abstract getGoogleAppId(): string;
+    abstract getOpenApiUrl(): string;
 
 }

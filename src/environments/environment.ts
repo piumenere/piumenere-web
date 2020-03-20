@@ -13,6 +13,9 @@ export class Environment extends AbstractEnvironment {
   getGoogleAppId(): string {
     return '716019201225-19kph86i3lphru4hm619qr5oohe7i1i4.apps.googleusercontent.com';
   }
+  getOpenApiUrl(): string {
+    return "https://localhost:8443/openapi";
+  }
 
 }
 

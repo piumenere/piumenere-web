@@ -12,11 +12,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { EnvironmentType } from 'src/environments/abstract-environment';
 import { TranslateModule } from '@ngx-translate/core';
 import { TranslateModuleLoaderConfig } from './providers/providers';
+import { SwaggerComponent } from './swagger/swagger.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    SwaggerComponent
   ],
   imports: [
     SharedModule,

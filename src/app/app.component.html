@@ -1,8 +1,16 @@
 <mat-sidenav-container fullscreen>
     <mat-sidenav>
-        <button mat-button (click)="this.toggle()">
-            <mat-icon>close</mat-icon>
-        </button>
+        <div fxLayout="column">
+            <button mat-button (click)="this.toggle()">
+                <mat-icon>close</mat-icon>
+            </button>
+            <button mat-button (click)="this.swagger()">
+                <div fxLayoutAlign="space-between center">
+                    <mat-icon svgIcon="api"></mat-icon>
+                    <mat-label translate fxFlex>menu.swagger</mat-label>
+                </div>
+            </button>
+        </div>
     </mat-sidenav>
     <mat-sidenav-content fxLayout="column">
         <mat-toolbar>

@@ -2,12 +2,15 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { FlexLayoutModule } from "@angular/flex-layout";
 
+import { ScrollingModule } from '@angular/cdk/scrolling';
+
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
+import { MatDialogModule } from '@angular/material/dialog';
 
 import { SocialLoginModule } from 'angularx-social-login';
 
@@ -21,6 +24,7 @@ import { TranslateModule } from '@ngx-translate/core';
     TranslateModule.forChild()
   ],
   exports: [
+    ScrollingModule,
     TranslateModule,
     HttpClientModule,
     FlexLayoutModule,
@@ -30,6 +34,7 @@ import { TranslateModule } from '@ngx-translate/core';
     MatToolbarModule,
     MatFormFieldModule,
     MatCardModule,
+    MatDialogModule,
     SocialLoginModule,
     IconsModule
   ],

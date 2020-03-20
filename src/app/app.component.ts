@@ -1,4 +1,4 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component, ViewChild, ViewContainerRef } from '@angular/core';
 import { UpdateService } from './update/update-service';
 import { MatSidenav } from '@angular/material/sidenav';
 import { StateService } from './state/state-service';
@@ -6,6 +6,8 @@ import { filter } from 'rxjs/operators';
 import { Router } from '@angular/router';
 import { loginRoute, defaultRoute } from './app-routing.module';
 import { LocaleService } from './locale/locale.service';
+import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
+import { SwaggerComponent } from './swagger/swagger.component';
 
 @Component({
   selector: 'app-root',
@@ -15,6 +17,8 @@ import { LocaleService } from './locale/locale.service';
 export class AppComponent {
   title = 'piumenere-web';
 
+  private dialogConfig = new MatDialogConfig<void>();
+
   @ViewChild(MatSidenav)
   private sidenav: MatSidenav;
 
@@ -22,7 +26,9 @@ export class AppComponent {
     router: Router,
     public updateService: UpdateService,
     stateService: StateService,
-    public localService: LocaleService
+    public localService: LocaleService,
+    public dialog: MatDialog,
+    private container: ViewContainerRef
   ) {
     stateService.logged.pipe(
       filter(logged => !logged)
@@ -38,6 +44,17 @@ export class AppComponent {
 
   public toggle(): void {
     this.sidenav.toggle();
+  }
+
+  public swagger(): void {
+    this.dialogConfig.viewContainerRef = this.container;
+    this.dialogConfig.disableClose = false;
+    this.dialogConfig.hasBackdrop = true;
+    this.dialogConfig.maxWidth = '90vw';
+    this.dialogConfig.maxHeight = '90vh';
+    this.dialogConfig.height = '90%';
+    this.dialogConfig.width = '90%';
+    this.dialog.open(SwaggerComponent, this.dialogConfig);
   }
 
 }
