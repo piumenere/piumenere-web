@@ -14,7 +14,7 @@ export class Environment extends AbstractEnvironment {
     return '716019201225-19kph86i3lphru4hm619qr5oohe7i1i4.apps.googleusercontent.com';
   }
   getOpenApiUrl(): string {
-    return 'https://piumenere.urown.cloud/openapi';
+    return 'https://services.piumenere.it/openapi';
   }
 
 }
