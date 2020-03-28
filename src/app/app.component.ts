@@ -8,6 +8,7 @@ import { loginRoute, defaultRoute } from './app-routing.module';
 import { LocaleService } from './locale/locale.service';
 import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import { SwaggerComponent } from './swagger/swagger.component';
+import { Environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -28,7 +29,8 @@ export class AppComponent {
     stateService: StateService,
     public localService: LocaleService,
     public dialog: MatDialog,
-    private container: ViewContainerRef
+    private container: ViewContainerRef,
+    private environment: Environment
   ) {
     stateService.logged.pipe(
       filter(logged => !logged)
@@ -55,6 +57,10 @@ export class AppComponent {
     this.dialogConfig.height = '90%';
     this.dialogConfig.width = '90%';
     this.dialog.open(SwaggerComponent, this.dialogConfig);
+  }
+
+  public batch(): void {
+    window.open(this.environment.getBatchUrl(), "_blank");
   }
 
 }

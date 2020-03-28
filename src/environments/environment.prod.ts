@@ -16,6 +16,9 @@ export class Environment extends AbstractEnvironment {
   getOpenApiUrl(): string {
     return 'https://services.piumenere.it/openapi';
   }
+  getBatchUrl(): string {
+    return 'https://batch.piumenere.it';
+  }
 
 }
 

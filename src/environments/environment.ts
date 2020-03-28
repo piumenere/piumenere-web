@@ -6,7 +6,7 @@ export class Environment extends AbstractEnvironment {
 
   getType(): EnvironmentType {
     return environmentType;
-  } 
+  }
   getFacebookAppId(): string {
     return '2556092497994302';
   }
@@ -15,6 +15,9 @@ export class Environment extends AbstractEnvironment {
   }
   getOpenApiUrl(): string {
     return "https://localhost:8443/openapi";
+  }
+  getBatchUrl(): string {
+    return 'http://localhost:3000/';
   }
 
 }

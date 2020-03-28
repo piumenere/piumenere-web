@@ -14,5 +14,6 @@ export abstract class AbstractEnvironment {
     abstract getFacebookAppId(): string;
     abstract getGoogleAppId(): string;
     abstract getOpenApiUrl(): string;
+    abstract getBatchUrl(): string;
 
 }
